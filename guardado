@@ -1,0 +1,99 @@
+ <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-instagram fs-3"></i>
+                    <span class="ms-2 fw-bold">Instagram</span>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button class="btn btn-success">Create a new post</button>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary d-flex align-items-center" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear-fill"></i>
+                        <i class="bi bi-caret-down-fill ms-1"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy & Data</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+    </nav>
+
+    <div class="switch-bar border-bottom">
+        <div class="container">
+            <ul class="nav nav-tabs justify-content-center">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="grid-tab" data-bs-toggle="tab" data-bs-target="#gridView"
+                        type="button" role="tab">
+                        <i class="bi bi-grid-3x3-gap-fill fs-5"></i>
+                    </button>
+                </li>
+                <li class="nav-item ms-3" role="presentation">
+                    <button class="nav-link" id="feed-tab" data-bs-toggle="tab" data-bs-target="#feedView" type="button"
+                        role="tab">
+                        <i class="bi bi-square-fill fs-5"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container py-3">
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="gridView" role="tabpanel">
+                <div class="row g-3 gallery">
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/1/900/900" alt=""></div>
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/2/900/900" alt=""></div>
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/3/900/900" alt=""></div>
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/4/900/900" alt=""></div>
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/5/900/900" alt=""></div>
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/6/900/900" alt=""></div>
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/7/900/900" alt=""></div>
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/8/900/900" alt=""></div>
+                    <div class="col-12 col-md-4"><img src="https://picsum.photos/seed/9/900/900" alt=""></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="tab-pane fade" id="feedView">
+        <div class="post-card mb-4">
+            <div class="px-3 py-2 d-flex justify-content-between align-items-baseline border-bottom">
+                <h6 class="mb-0 fw-semibold">My Crazy dog Spark!</h6>
+                <small class="text-muted">08/26</small>
+            </div>
+            <img src="https://picsum.photos/seed/dog/1200/800" alt="">
+            <div class="p-3">
+                <p class="mb-0 text-muted">Best boy enjoying the sun ☀️</p>
+            </div>
+        </div>
+        <div class="post-card mb-4">
+            <div class="px-3 py-2 d-flex justify-content-between align-items-baseline border-bottom">
+                <h6 class="mb-0 fw-semibold">Paris</h6>
+                <small class="text-muted">07/18</small>
+            </div>
+            <img src="https://picsum.photos/seed/paris/1200/800" alt="">
+            <div class="p-3">
+                <p class="mb-0 text-muted">A perfect day to stroll.</p>
+            </div>
+        </div>
+        <div class="post-card mb-4">
+            <div class="px-3 py-2 d-flex justify-content-between align-items-baseline border-bottom">
+                <h6 class="mb-0 fw-semibold">Match night</h6>
+                <small class="text-muted">06/02</small>
+            </div>
+            <img src="https://picsum.photos/seed/soccer/1200/800" alt="">
+            <div class="p-3">
+                <p class="mb-0 text-muted">Last-minute winner! ⚽️</p>
+            </div>
+        </div>
+    </div>
